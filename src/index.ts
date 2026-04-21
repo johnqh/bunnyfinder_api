@@ -3,10 +3,7 @@ import { cors } from "hono/cors";
 import { logger } from "hono/logger";
 import { initDatabase } from "./db";
 import routes from "./routes";
-import {
-  successResponse,
-  errorResponse,
-} from "@sudobility/bunnyfinder_types";
+import { successResponse, errorResponse } from "@sudobility/bunnyfinder_types";
 import { getEnv } from "./lib/env-helper";
 
 const app = new Hono();
