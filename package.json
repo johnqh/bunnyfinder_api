@@ -1,6 +1,6 @@
 {
   "name": "bunnyfinder_api",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "private": true,
   "description": "Starter API - Hono backend with PostgreSQL + Drizzle ORM",
   "scripts": {
@@ -19,7 +19,7 @@
   "dependencies": {
     "@sudobility/auth_service": "^1.1.16",
     "@sudobility/bunnyfinder_types": "^0.0.18",
-    "@sudobility/entity_service": "^1.0.33",
+    "@sudobility/entity_service": "^1.0.34",
     "@sudobility/types": "^1.9.61",
     "drizzle-orm": "^0.44.2",
     "firebase-admin": "^13.4.0",
